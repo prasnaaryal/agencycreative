@@ -10,18 +10,17 @@ import {
 
 const Testomonials = () => {
   return (
-    <div className="container flex flex-col text-center items-center justify-center mx-auto p-8">
-      <div className="relative space-y-10">
+    <div className="container relative flex flex-col text-center items-center justify-center mx-auto p-8">
+      <Image
+        className="absolute top-6 left-2 rotate-45"
+        src="/images/Group 2144 copy.png"
+        width={98}
+        height={71}
+        alt="decorative element"
+      />
+      <div className=" space-y-10">
         <p className="text-[#377DFF] font-semibold">Testomonials</p>
         <h1 className="font-bold text-black text-5xl">People talk about us</h1>
-
-        <Image
-          className="absolute top-6 rotate"
-          src="/images/Group 2144 copy.png"
-          width={98}
-          height={71}
-          alt="decorative element"
-        />
       </div>
 
       <div className="mt-16 flex space-x-8">
