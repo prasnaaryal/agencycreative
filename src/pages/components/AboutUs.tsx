@@ -16,6 +16,7 @@ const AboutUs = () => {
           <div className="relative col-span-7">
             {/* Main Image */}
             <Image
+              className="relative z-20"
               src="/images/Rectangle 832.jpg"
               alt="aboutus"
               width={600}
@@ -23,23 +24,31 @@ const AboutUs = () => {
             />
 
             {/* Decorative element in the top-left corner */}
-            <div className="absolute top-0 left-0 z-10">
-              <Image
-                src="/images/Group 2144 copy.png"
-                width={60}
-                height={60}
-                alt="decorative element"
-              />
-            </div>
+
+            <Image
+              className="absolute -top-3 -left-5 z-10 "
+              src="/images/Group 2144 copy.png"
+              width={98}
+              height={71}
+              alt="decorative element"
+            />
+
+            <Image
+              className="absolute -bottom-3 right-14 z-10 "
+              src="/images/Group 2144 copy.png"
+              width={98}
+              height={71}
+              alt="decorative element"
+            />
           </div>
 
           <div className="col-span-5 space-y-6 text-left py-6">
-            <p className="text-black ">
+            <p className="text-black text-xl ">
               We move with make a Creative Strategy for help your business goal,
               we help to improve your income by a services we have. make your
               content look interesting and make people look for your business
             </p>
-            <p className="text-black">
+            <p className="text-black text-xl mt-8">
               We move with make a Creative Strategy for help your business goal,
               we help to improve your income by a services we have. make your
               content look interesting and make people look for your business

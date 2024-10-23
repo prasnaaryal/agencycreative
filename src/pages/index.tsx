@@ -5,14 +5,16 @@ import Header from "@/layout/header";
 import React from "react";
 import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
+import OurServices from "./components/OurServices";
 
 const index = () => {
   return (
     <div>
       <Header />
-      <main className="bg-white">
+      <main className="bg-white space-y-10">
        <Banner/>
        <AboutUs/>
+       <OurServices/>
     </main>
       <Footer />
     </div>
