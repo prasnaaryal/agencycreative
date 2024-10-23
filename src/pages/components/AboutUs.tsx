@@ -8,7 +8,7 @@ const AboutUs = () => {
     <div>
       <div className="container  mx-auto flex flex-col items-center justify-center text-center space-y-8 p-8">
         <div>
-          <p className="  font-semibold text-2xl text-[#377DFF]">About us</p>
+          <p className="  font-semibold text-2xl text-[#377DFF] mb-6">About us</p>
           <h1 className="text-black font-bold text-5xl">Our Teammate</h1>
         </div>
 
@@ -29,7 +29,7 @@ const AboutUs = () => {
               className="absolute -top-3 -left-5 z-10 "
               src="/images/Group 2144 copy.png"
               width={98}
-              height={71}
+              height={60}
               alt="decorative element"
             />
 
