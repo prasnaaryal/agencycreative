@@ -15,7 +15,7 @@ const OurServices = () => {
         <h1 className="text-black font-semibold text-5xl">
           Perfect and Fast Movement
         </h1>
-        <p className="text-[#464646] mt-4">
+        <p className="text-[#464646] m-4">
           We move with make a Creative Strategy for help your business goal, we
           help to improve your income by a services we have. make your acontent
           look interesting and make people look for your business

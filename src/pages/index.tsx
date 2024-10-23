@@ -5,6 +5,7 @@ import Header from "@/layout/header";
 import React from "react";
 import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
+import OurPortfolio from "./components/OurPortfolio";
 import OurServices from "./components/OurServices";
 
 const index = () => {
@@ -15,6 +16,7 @@ const index = () => {
        <Banner/>
        <AboutUs/>
        <OurServices/>
+       <OurPortfolio/>
     </main>
       <Footer />
     </div>
