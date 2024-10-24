@@ -5,6 +5,7 @@ import Header from "@/layout/header";
 import React from "react";
 import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
+import Collaboration from "./components/Collaboration";
 import OurPortfolio from "./components/OurPortfolio";
 import OurServices from "./components/OurServices";
 import Testomonials from "./components/Testomonials";
@@ -19,6 +20,7 @@ const index = () => {
         <OurServices />
         <OurPortfolio />
         <Testomonials />
+        <Collaboration/>
       </main>
       <Footer />
     </div>
